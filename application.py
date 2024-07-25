@@ -1,7 +1,7 @@
 import streamlit as st
 from src.pipeline.prediction_pipeline import GetFeature,PredictionPipeline
 
-
+st.header("Diamond Price Prediction")
 cut_categories = ['Fair', 'Good', 'Very Good','Premium','Ideal']
 color_categories = ['D', 'E', 'F', 'G', 'H', 'I', 'J']
 clarity_categories = ['I1','SI2','SI1','VS2','VS1','VVS2','VVS1','IF']
