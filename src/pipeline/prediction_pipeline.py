@@ -24,13 +24,10 @@ class PredictionPipeline:
 
 
 class GetFeature:
-    def __init__(self, carat:float, table:float, color:str, cut:str, x:float, y:float, z:float, depth:float, clarity:str):
+    def __init__(self, carat:float, table:float, color:str, cut:str, depth:float, clarity:str):
         self.carat = carat
         self.table = table
         self.depth = depth
-        self.x = x
-        self.y = y
-        self.z = z
         self.color = color
         self.clarity = clarity
         self.cut = cut
@@ -40,9 +37,6 @@ class GetFeature:
             "carat": [self.carat],
             "depth": [self.depth],
             "table": [self.table],
-            "x": [self.x],
-            "y": [self.y],
-            "z": [self.z],
             "cut": [self.cut],
             "color": [self.color],
             "clarity": [self.clarity]
