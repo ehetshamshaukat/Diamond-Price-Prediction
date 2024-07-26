@@ -6,7 +6,7 @@ To predict the price of diamond
 ## Description
 ### 1. Dataset
 ```
-Dataset available on kaggle 
+Dataset available on kaggle
 ```
 
 ### 2. Features
@@ -81,3 +81,7 @@ streamlit run application.py
 ```
 Deploy on AWS using Github actions which is CI CD technique
 ```
+## Image
+<img width="1509" alt="Screenshot 2024-07-25 at 4 56 09 PM 1" src="https://github.com/user-attachments/assets/6ae64e87-696e-4c1f-962d-7eea8684b8ab">
+
+
